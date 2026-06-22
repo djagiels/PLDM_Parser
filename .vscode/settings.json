@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd /c/Users/djagiels/source/repos/PLDM_Parser && python -m pldm_parser \"72:00:00:09:00:40:10:7F:00:41:1A:B4:01:11:09:C0:01:08:02:51:00:02:00:00:00:00:00:00:00:05:13:00:01:00:00:00:01:01:00:00:09:00:01:00:01:15:00:00:01:01:08\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^cd /c/Users/djagiels/source/repos/PLDM_Parser && python -c \"import pldm_parser\\.gui as g; print\\('GUI module imports OK; entrypoint:', g\\.main\\)\" && python -m pytest -q 2>&1 \\| tail -5$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
